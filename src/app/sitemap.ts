@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 import { products, categories } from '@/lib/data';
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = 'https://luxemeat.ae';
+  const base = 'https://EasyMeat.ae';
   return [
     {url:base,lastModified:new Date(),changeFrequency:'daily',priority:1},
     {url:`${base}/products`,lastModified:new Date(),changeFrequency:'daily',priority:0.9},

@@ -14,7 +14,7 @@ export default function Footer() {
                 <span className="text-black font-bold text-sm">LM</span>
               </div>
               <span className="font-display text-xl font-bold text-white">
-                Luxe<span className="text-gold-gradient">Meat</span>
+                Easy<span className="text-gold-gradient">Meat</span>
               </span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
@@ -81,7 +81,7 @@ export default function Footer() {
             <div className="space-y-3 text-sm text-gray-400">
               <p>📞 <a href="tel:+971800000000" className="hover:text-gold transition-colors">+971 800 000 000</a></p>
               <p>💬 <a href="https://wa.me/971500000000" className="hover:text-green-400 transition-colors">WhatsApp Order</a></p>
-              <p>✉️ <a href="mailto:hello@luxemeat.ae" className="hover:text-gold transition-colors">hello@luxemeat.ae</a></p>
+              <p>✉️ <a href="mailto:hello@EasyMeat.ae" className="hover:text-gold transition-colors">hello@EasyMeat.ae</a></p>
               <p>🕐 Daily: 8:00 AM – 11:00 PM</p>
               <p>📍 Dubai, UAE</p>
             </div>
@@ -105,7 +105,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-6 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-gray-500 text-sm">© {new Date().getFullYear()} LuxeMeat UAE. All rights reserved.</p>
+          <p className="text-gray-500 text-sm">© {new Date().getFullYear()} EasyMeat UAE. All rights reserved.</p>
           <div className="flex items-center gap-4 text-gray-500 text-xs">
             <span>🔒 Secure Checkout</span>
             <span>✅ 100% Halal</span>

@@ -4,11 +4,11 @@ export const categories: Category[] = [
   { id: 'beef', name: 'Beef', nameAr: 'لحم البقر', image: '/images/categories/beef.jpg', description: 'Premium cuts from grain-fed cattle' },
   { id: 'lamb', name: 'Lamb', nameAr: 'لحم الضأن', image: '/images/categories/lamb.jpg', description: 'Tender farm-fresh lamb' },
   { id: 'chicken', name: 'Chicken', nameAr: 'دجاج', image: '/images/categories/chicken.jpg', description: 'Free-range halal chicken' },
-  { id: 'goat', name: 'Goat', nameAr: 'لحم الماعز', image: '/images/categories/goat.jpg', description: 'Fresh local goat meat' },
-  { id: 'wagyu', name: 'Wagyu', nameAr: 'لحم واغيو', image: '/images/categories/wagyu.jpg', description: 'Japanese A5 Wagyu beef' },
-  { id: 'seafood', name: 'Seafood', nameAr: 'مأكولات بحرية', image: '/images/categories/seafood.jpg', description: 'Fresh daily catch' },
-  { id: 'bbq', name: 'BBQ Specials', nameAr: 'تشكيلة الشواء', image: '/images/categories/bbq.jpg', description: 'Ready-to-grill selections' },
-  { id: 'family', name: 'Family Packs', nameAr: 'عروض العائلة', image: '/images/categories/family.jpg', description: 'Value packs for the whole family' },
+  { id: 'goat', name: 'Mutton', nameAr: 'لحم الماعز', image: '/images/categories/goat.jpg', description: 'Fresh local goat meat' },
+//  { id: 'wagyu', name: 'Wagyu', nameAr: 'لحم واغيو', image: '/images/categories/wagyu.jpg', description: 'Japanese A5 Wagyu beef' },
+  //{ id: 'seafood', name: 'Seafood', nameAr: 'مأكولات بحرية', image: '/images/categories/seafood.jpg', description: 'Fresh daily catch' },
+  //{ id: 'bbq', name: 'BBQ Specials', nameAr: 'تشكيلة الشواء', image: '/images/categories/bbq.jpg', description: 'Ready-to-grill selections' },
+  //{ id: 'family', name: 'Family Packs', nameAr: 'عروض العائلة', image: '/images/categories/family.jpg', description: 'Value packs for the whole family' },
 ];
 
 export const products: Product[] = [

@@ -46,7 +46,7 @@ export default function Navbar() {
                 <span className="text-black font-bold text-sm">LM</span>
               </div>
               <span className="font-display text-xl font-bold text-white">
-                Luxe<span className="text-gold-gradient">Meat</span>
+                Easy<span className="text-gold-gradient">Meat</span>
               </span>
             </Link>
 

@@ -1,4 +1,4 @@
 import { MetadataRoute } from 'next';
 export default function robots(): MetadataRoute.Robots {
-  return { rules:{userAgent:'*',allow:'/',disallow:['/admin/','/dashboard/','/checkout/']}, sitemap:'https://luxemeat.ae/sitemap.xml' };
+  return { rules:{userAgent:'*',allow:'/',disallow:['/admin/','/dashboard/','/checkout/']}, sitemap:'https://EasyMeat.ae/sitemap.xml' };
 }

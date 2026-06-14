@@ -1,4 +1,4 @@
-# 🥩 LuxeMeat UAE – Premium Halal Meat E-Commerce
+# 🥩 EasyMeat UAE – Premium Halal Meat E-Commerce
 
 A luxury, modern, 3D meat e-commerce platform built for the UAE market. Combines the elegance of Apple, Tesla, and Dubai premium brands into a fully-featured online meat delivery shop.
 
@@ -181,4 +181,4 @@ vercel deploy
 ---
 
 ## 📄 License
-Built for LuxeMeat UAE. All rights reserved.
+Built for EasyMeat UAE. All rights reserved.

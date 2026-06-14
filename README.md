@@ -1,4 +1,4 @@
-# 🥩 LuxeMeat UAE – Premium Halal Meat E-Commerce
+# 🥩 EasyMeat UAE – Premium Halal Meat E-Commerce
 
 ## Quick Start
 

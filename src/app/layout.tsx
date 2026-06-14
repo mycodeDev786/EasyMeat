@@ -9,14 +9,14 @@ import PromoBanner from '@/components/ui/PromoBanner';
 import { Toaster } from 'react-hot-toast';
 
 export const metadata: Metadata = {
-  title: { default: 'LuxeMeat UAE – Premium Halal Meat Delivery', template: '%s | LuxeMeat UAE' },
+  title: { default: 'EasyMeat UAE – Premium Halal Meat Delivery', template: '%s | EasyMeat UAE' },
   description: 'Premium halal meat delivered fresh across UAE. Same-day delivery in Dubai, Abu Dhabi, Sharjah and all emirates.',
   keywords: ['fresh meat UAE','halal meat Dubai','online meat delivery Dubai','premium beef UAE','Wagyu UAE'],
   openGraph: {
-    title: 'LuxeMeat UAE – Premium Halal Meat Delivery',
+    title: 'EasyMeat UAE – Premium Halal Meat Delivery',
     description: 'Farm Fresh • Expertly Cut • Delivered To Your Doorstep',
-    url: 'https://luxemeat.ae',
-    siteName: 'LuxeMeat UAE',
+    url: 'https://EasyMeat.ae',
+    siteName: 'EasyMeat UAE',
     locale: 'en_AE',
     type: 'website',
   },

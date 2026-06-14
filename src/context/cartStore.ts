@@ -58,6 +58,6 @@ export const useCartStore = create<CartStore>()(
       getVAT: () => get().getSubtotal() * 0.05,
       getTotal: () => get().getSubtotal() + get().getDeliveryFee() + get().getVAT(),
     }),
-    { name: 'luxemeat-cart' }
+    { name: 'EasyMeat-cart' }
   )
 );

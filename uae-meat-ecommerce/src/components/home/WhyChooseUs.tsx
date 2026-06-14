@@ -63,7 +63,7 @@ export default function WhyChooseUs() {
           >
             <span className="text-gold text-sm font-semibold tracking-widest uppercase mb-3 block">Our Promise</span>
             <h2 className="section-title text-white mb-4">
-              Why Choose <span className="text-gold-gradient">LuxeMeat</span>
+              Why Choose <span className="text-gold-gradient">EasyMeat</span>
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
               We're not just a meat delivery service. We're your trusted partner in bringing the finest halal meats to your table.

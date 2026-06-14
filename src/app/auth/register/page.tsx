@@ -21,7 +21,7 @@ export default function RegisterPage() {
     if (form.password!==form.confirm) { toast.error('Passwords do not match'); return; }
     if (form.password.length<6) { toast.error('Password must be at least 6 characters'); return; }
     setLoading(true);
-    try { await register(form.name, form.email, form.password); toast.success('Welcome to LuxeMeat! 🥩'); router.push('/dashboard'); }
+    try { await register(form.name, form.email, form.password); toast.success('Welcome to EasyMeat! 🥩'); router.push('/dashboard'); }
     catch (err: any) { toast.error(err.message||'Registration failed.'); }
     finally { setLoading(false); }
   };
@@ -41,7 +41,7 @@ export default function RegisterPage() {
             <span className="text-black font-bold text-xl">LM</span>
           </div>
           <h1 className="font-serif text-3xl font-bold text-white">Create Account</h1>
-          <p className="text-gray-400 mt-2">Join LuxeMeat and enjoy premium halal meat delivery</p>
+          <p className="text-gray-400 mt-2">Join EasyMeat and enjoy premium halal meat delivery</p>
         </div>
         <div className="glass border border-white/10 rounded-2xl p-8">
           <button onClick={handleGoogle} className="w-full flex items-center justify-center gap-3 bg-white/5 border border-white/10 hover:border-white/30 text-white py-3 rounded-xl font-medium transition-all mb-6">

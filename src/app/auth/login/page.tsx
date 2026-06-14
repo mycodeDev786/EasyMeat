@@ -38,7 +38,7 @@ export default function LoginPage() {
             <span className="text-black font-bold text-xl">LM</span>
           </div>
           <h1 className="font-serif text-3xl font-bold text-white">Welcome Back</h1>
-          <p className="text-gray-400 mt-2">Sign in to your LuxeMeat account</p>
+          <p className="text-gray-400 mt-2">Sign in to your EasyMeat account</p>
         </div>
         <div className="glass border border-white/10 rounded-2xl p-8">
           <button onClick={handleGoogle} className="w-full flex items-center justify-center gap-3 bg-white/5 border border-white/10 hover:border-white/30 text-white py-3 rounded-xl font-medium transition-all mb-6">

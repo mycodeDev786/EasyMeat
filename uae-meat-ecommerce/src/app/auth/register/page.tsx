@@ -25,7 +25,7 @@ export default function RegisterPage() {
     setLoading(true);
     try {
       await register(form.name, form.email, form.password);
-      toast.success('Account created! Welcome to LuxeMeat!');
+      toast.success('Account created! Welcome to EasyMeat!');
       router.push('/dashboard');
     } catch (err: any) {
       toast.error(err.message || 'Registration failed. Please try again.');
@@ -58,7 +58,7 @@ export default function RegisterPage() {
             <span className="text-black font-bold text-xl">LM</span>
           </div>
           <h1 className="font-display text-3xl font-bold text-white">Create Account</h1>
-          <p className="text-gray-400 mt-2">Join LuxeMeat and enjoy premium halal meat delivery</p>
+          <p className="text-gray-400 mt-2">Join EasyMeat and enjoy premium halal meat delivery</p>
         </div>
 
         <div className="glass border border-white/10 rounded-2xl p-8">

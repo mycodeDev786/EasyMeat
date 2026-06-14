@@ -20,7 +20,7 @@ export default function WhyChooseUs() {
         <div ref={ref}>
           <motion.div initial={{opacity:0,y:30}} animate={inView?{opacity:1,y:0}:{}} className="text-center mb-16">
             <span className="text-yellow-400 text-sm font-semibold tracking-widest uppercase mb-3 block">Our Promise</span>
-            <h2 className="section-title text-white mb-4">Why Choose <span className="text-gold-gradient">LuxeMeat</span></h2>
+            <h2 className="section-title text-white mb-4">Why Choose <span className="text-gold-gradient">EasyMeat</span></h2>
             <p className="text-gray-400 max-w-2xl mx-auto">We're not just a meat delivery service. We're your trusted partner in bringing the finest halal meats to your table.</p>
           </motion.div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

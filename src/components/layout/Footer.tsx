@@ -12,7 +12,7 @@ export default function Footer() {
               <div className="w-8 h-8 rounded-full flex items-center justify-center" style={{background:'linear-gradient(135deg,#D4AF37,#E8C84B,#B8931E)'}}>
                 <span className="text-black font-bold text-sm">LM</span>
               </div>
-              <span className="font-serif text-xl font-bold text-white">Luxe<span className="text-gold-gradient">Meat</span></span>
+              <span className="font-serif text-xl font-bold text-white">Easy<span className="text-gold-gradient">Meat</span></span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-4">Premium halal meat delivered fresh across the UAE. Farm fresh, expertly cut, delivered to your doorstep.</p>
             <div className="mb-4"><span className="halal-badge">100% Halal Certified</span></div>
@@ -47,7 +47,7 @@ export default function Footer() {
             <div className="space-y-2.5 text-sm text-gray-400">
               <p>📞 <a href="tel:+971800000000" className="hover:text-yellow-400">+971 800 000 000</a></p>
               <p>💬 <a href="https://wa.me/971500000000" className="hover:text-green-400">WhatsApp Order</a></p>
-              <p>✉️ <a href="mailto:hello@luxemeat.ae" className="hover:text-yellow-400">hello@luxemeat.ae</a></p>
+              <p>✉️ <a href="mailto:hello@EasyMeat.ae" className="hover:text-yellow-400">hello@EasyMeat.ae</a></p>
               <p>🕐 Daily: 8:00 AM – 11:00 PM</p>
               <p>📍 Dubai, UAE</p>
             </div>
@@ -68,7 +68,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-6 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-gray-500 text-sm">© {new Date().getFullYear()} LuxeMeat UAE. All rights reserved.</p>
+          <p className="text-gray-500 text-sm">© {new Date().getFullYear()} EasyMeat UAE. All rights reserved.</p>
           <div className="flex items-center gap-4 text-gray-500 text-xs">
             <span>🔒 Secure Checkout</span>
             <span>✅ 100% Halal</span>
