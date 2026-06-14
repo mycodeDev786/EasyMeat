@@ -45,7 +45,10 @@ export function useProducts(options?: {
           if (options?.limitTo) filtered = filtered.slice(0, options.limitTo);
           setData(filtered);
         } else {
-          let prods = snap.docs.map(d => ({ id: d.id, ...d.data() } as unknown as Product));
+          let prods = snap.docs.map(d => {
+            const docData = d.data() as Omit<Product, 'id'>;
+            return { id: d.id, ...docData };
+          });
           if (options?.search) {
             const s = options.search.toLowerCase();
             prods = prods.filter(p => p.name.toLowerCase().includes(s) || p.description.toLowerCase().includes(s));
